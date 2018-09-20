@@ -1,0 +1,10 @@
+body {
+  background-color: #ccc;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #fff;
+  min-height: 400px;
+}
