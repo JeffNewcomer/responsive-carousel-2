@@ -62,3 +62,21 @@
 .slider button:active {
   opacity: 1;
 }
+
+.slider .content {
+z-index: 3;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 3em;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+padding: 0.5em 1em;
+font-size: 1em;
+}
+
+.slider .content a {
+color: inherit;
+}
