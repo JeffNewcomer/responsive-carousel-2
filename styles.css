@@ -1,0 +1,47 @@
+div {
+  border: 2px red solid;
+}
+
+.header {
+  width: 40rem;
+  margin-bottom: 15rem;
+}
+
+body {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  /* margin: 0 auto; */
+  margin: 0 25%;
+  width: 20rem;
+  /* min-height: 400px; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  text-align: center;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size:2rem;
+  margin: 100px auto 13px auto;
+}
+
+
+@media (min-width: 800px) {
+  .header-text {
+    font-size: 2.5rem;
+    margin: 100px auto 30px auto;
+  }
+
+  .container {
+    width: 30rem;
+  }
+
+  .header {
+    width: 60rem;
+  }
+}
